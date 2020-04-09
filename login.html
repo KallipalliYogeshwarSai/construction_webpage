@@ -1,0 +1,126 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("https://www.build-review.com/wp-content/uploads/2019/12/construction-2.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:center;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<h1><P><italic>AZY CONSTRUCTIONS</italic></P></h1>
+</div>
+<div class="Menu-bar">
+<ul>
+<li><a href="#"><a href="construction site.html"><i class="fa fa-home"></i>Home</a></li>
+<li><a href="About us History.html"><i class="fa fa-user"></i>About us/History</a>
+  <div class="sub-Menu-1">
+      <ul>
+          <li><a href="Mission.html">Mission</a></li>
+		  <li><a href="Vision.html">Vision</a></li>
+		  <li><a href="Team.html">Team</a></li>
+      </ul>
+  </div>
+</li>
+<li><a href="#"><i class="fa fa-clone"></i>Our Buisiness</a>
+  <div class="sub-Menu-1">
+      <ul>
+          <li><a href="#">Architection</a></li>
+		  <li class="hover-me"><a href="#">Marketing<i class="fa fa-angle-right"></i></a>
+		  <div class="sub-Menu-2">
+		    <ul>
+               <li><a href="#">Labour</a></li>
+		       <li><a href="#">Bricks and Bars</a></li>
+		       <li><a href="#">Sites</a></li>
+            </ul>
+		  </div>
+		  </li>
+		  <li class="hover-me"><a href="#">Materials<i class="fa fa-angle-right"></i></a>
+		  <div class="sub-Menu-2">
+		    <ul>
+               <li><a href="#">concrete</a></li>
+		       <li><a href="#">Metal</a></li>
+		       <li><a href="#">Sand</a></li>
+            </ul>
+		  </div>
+		  </li>
+      </ul>
+  </div>
+</li>
+<li><a href="projects.html"><i class="fa fa-users"></i>Projects</a></li>
+<li class="#"><a href="media.html"><i class="fa fa-medium"></i>Media</a></li>
+<li><a href="#"><a href="career.html"><i class="fa fa-edit"></i>Career</a></li>
+<li><a href="#"><a href="contact Us.html"><i class="fa fa-phone"></i>Contact us</a></li>
+<li class="active"><a href="login.html"><i class="fa fa-sign-in"></i>Login</a></li>
+</ul>
+</div>
+<h2></h2>
+<div class="bg-img">
+  <form action="/action_page.php" class="container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+  </form>
+</div>
+</body>
+</html>
